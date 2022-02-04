@@ -1,0 +1,64 @@
+﻿  Game.cpp
+D:\GITHUB UNIVERSITY PROJECTS\301CR-GameEngine2D-Ivan-Alexandru\GameEngine2D - Alex\src\Systems\MovementSystem.h(68,1): warning C4244: '+=': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+D:\GITHUB UNIVERSITY PROJECTS\301CR-GameEngine2D-Ivan-Alexandru\GameEngine2D - Alex\src\Systems\MovementSystem.h(69,1): warning C4244: '+=': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+D:\GITHUB UNIVERSITY PROJECTS\301CR-GameEngine2D-Ivan-Alexandru\GameEngine2D - Alex\src\Systems\CameraMovementSystem.h(21,37): warning C4244: '=': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+D:\GITHUB UNIVERSITY PROJECTS\301CR-GameEngine2D-Ivan-Alexandru\GameEngine2D - Alex\src\Systems\CameraMovementSystem.h(25,37): warning C4244: '=': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+D:\GITHUB UNIVERSITY PROJECTS\301CR-GameEngine2D-Ivan-Alexandru\GameEngine2D - Alex\src\Systems\ProjectileEmitSystem.h(78,69): warning C4018: '>': signed/unsigned mismatch
+D:\GITHUB UNIVERSITY PROJECTS\301CR-GameEngine2D-Ivan-Alexandru\GameEngine2D - Alex\src\Systems\ProjectileLifeSystem.h(19,46): warning C4018: '>': signed/unsigned mismatch
+D:\GITHUB UNIVERSITY PROJECTS\301CR-GameEngine2D-Ivan-Alexandru\GameEngine2D - Alex\src\Systems\RenderTextSystem.h(4,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+D:\GITHUB UNIVERSITY PROJECTS\301CR-GameEngine2D-Ivan-Alexandru\GameEngine2D - Alex\src\Systems\RenderGUISystem.h(96,40): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+D:\GITHUB UNIVERSITY PROJECTS\301CR-GameEngine2D-Ivan-Alexandru\GameEngine2D - Alex\src\Game\Game.cpp(114,32): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\GITHUB UNIVERSITY PROJECTS\301CR-GameEngine2D-Ivan-Alexandru\GameEngine2D - Alex\src\Game\Game.cpp(114,24): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\GITHUB UNIVERSITY PROJECTS\301CR-GameEngine2D-Ivan-Alexandru\GameEngine2D - Alex\src\ECS\ECS.h(334,18): warning C4018: '>=': signed/unsigned mismatch
+D:\GITHUB UNIVERSITY PROJECTS\301CR-GameEngine2D-Ivan-Alexandru\GameEngine2D - Alex\src\ECS\ECS.h(387): message : see reference to function template instantiation 'void Registry::AddComponent<TComponent,glm::vec2&,_Ty,double>(Entity,glm::vec2 &,_Ty &&,double &&)' being compiled
+          with
+          [
+              TComponent=TransformComponent,
+              _Ty=glm::vec2
+          ]
+D:\GITHUB UNIVERSITY PROJECTS\301CR-GameEngine2D-Ivan-Alexandru\GameEngine2D - Alex\src\Systems\ProjectileEmitSystem.h(57): message : see reference to function template instantiation 'void Entity::AddComponent<TransformComponent,glm::vec2&,glm::vec2,double>(glm::vec2 &,glm::vec2 &&,double &&)' being compiled
+D:\GITHUB UNIVERSITY PROJECTS\301CR-GameEngine2D-Ivan-Alexandru\GameEngine2D - Alex\src\ECS\ECS.h(155,15): warning C4018: '>=': signed/unsigned mismatch
+D:\GITHUB UNIVERSITY PROJECTS\301CR-GameEngine2D-Ivan-Alexandru\GameEngine2D - Alex\src\ECS\ECS.h(143): message : while compiling class template member function 'void Pool<TComponent>::Set(int,T)'
+          with
+          [
+              TComponent=ProjectileEmitterComponent,
+              T=ProjectileEmitterComponent
+          ]
+D:\GITHUB UNIVERSITY PROJECTS\301CR-GameEngine2D-Ivan-Alexandru\GameEngine2D - Alex\src\ECS\ECS.h(347): message : see reference to function template instantiation 'void Pool<TComponent>::Set(int,T)' being compiled
+          with
+          [
+              TComponent=ProjectileEmitterComponent,
+              T=ProjectileEmitterComponent
+          ]
+D:\GITHUB UNIVERSITY PROJECTS\301CR-GameEngine2D-Ivan-Alexandru\GameEngine2D - Alex\src\ECS\ECS.h(383): message : see reference to class template instantiation 'Pool<TComponent>' being compiled
+          with
+          [
+              TComponent=ProjectileEmitterComponent
+          ]
+D:\GITHUB UNIVERSITY PROJECTS\301CR-GameEngine2D-Ivan-Alexandru\GameEngine2D - Alex\src\ECS\ECS.h(403): message : see reference to function template instantiation 'TComponent &Registry::GetComponent<TComponent>(Entity) const' being compiled
+          with
+          [
+              TComponent=ProjectileEmitterComponent
+          ]
+D:\GITHUB UNIVERSITY PROJECTS\301CR-GameEngine2D-Ivan-Alexandru\GameEngine2D - Alex\src\Systems\ProjectileEmitSystem.h(31): message : see reference to function template instantiation 'TComponent &Entity::GetComponent<ProjectileEmitterComponent>(void) const' being compiled
+          with
+          [
+              TComponent=ProjectileEmitterComponent
+          ]
+  GameEngine2D - Alex.vcxproj -> D:\GITHUB UNIVERSITY PROJECTS\301CR-GameEngine2D-Ivan-Alexandru\GameEngine2D - Alex\Debug\GameEngine2D - Alex.exe

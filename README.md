@@ -1,6 +1,6 @@
 # 301CR - GameEngine2D - Ivan Alexandru
-
-Game Engine created using an ECS System:
+#Coventry University - Third Year 
+# Game Engine created using an ECS System:
 
 -SDL2 - library for rendering and handling input.
 
@@ -15,7 +15,7 @@ Game Engine created using an ECS System:
 -Enet - network communication layer.
 
 
-How to run the Engine through Visual Studio: 
+# How to run the Engine through Visual Studio: 
 
 - Step 1: Open GameEngine2D - Alex.vcxproj 
 
@@ -24,7 +24,7 @@ How to run the Engine through Visual Studio:
 - Step 3: Run
 
 
-How to run the Server through Visual Studio: 
+# How to run the Server through Visual Studio: 
 
 - Step 1: Open Server.vcxproj
 
@@ -36,7 +36,7 @@ How to run the Server through Visual Studio:
 Before Running: The server is running but not working with the engine, only works in Debug Mode x64, based on the class example.
 The current problem is that is not working/linking with the NetworkSystem inside the engine which has been commented out.
 
-Controls for the game:
+# Controls for the game:
 
 Movement: Arrow Keys
 

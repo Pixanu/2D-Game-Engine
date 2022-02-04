@@ -3,10 +3,15 @@
 Game Engine created using an ECS System:
 
 -SDL2 - library for rendering and handling input.
+
 -GLM - a math helper library.
+
 -DearImGui - library to create UI for engine tooling.
+
 -Sol - binding library for C++ & Lua.
+
 -Lua - fast and easy to use scripting language.
+
 -Enet - network communication layer.
 
 
